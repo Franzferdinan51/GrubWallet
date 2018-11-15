@@ -2,7 +2,7 @@
   "name": "GrubWallet",
   "productName": "GrubWallet",
   "description": "TurtleCoin GUI Wallet",
-  "version": "v0.0.1",
+  "version": "v0.0.2",
   "homepage": "https://github.com/Franzferdinan51/turtle-wallet-electron/",
   "repository": "https://github.com/Franzferdinan51/turtle-wallet-electron",
   "main": "main.js",
