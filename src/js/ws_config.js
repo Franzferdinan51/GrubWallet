@@ -1,11 +1,11 @@
 var config = {};
 
 // self explanatory, your application name, descriptions, etc
-config.appName = 'WalletShell';
-config.appDescription = 'TurtleCoin Wallet';
+config.appName = 'GrubWallet';
+config.appDescription = 'GrubPrivate Wallet';
 config.appSlogan = 'Slow and steady wins the race!';
-config.appId = 'lol.turtlecoin.walletshell';
-config.appGitRepo = 'https://github.com/turtlecoin/turtle-wallet-electron';
+config.appId = 'Grub.wallet.shll';
+config.appGitRepo = 'https://github.com/Franzferdinan51/turtle-wallet-electron';
 
 // default port number for your daemon (e.g. TurtleCoind)
 config.daemonDefaultRpcPort = 11898;
@@ -14,7 +14,7 @@ config.daemonDefaultRpcPort = 11898;
 config.walletFileDefaultExt = 'twl';
 
 // change this to match your wallet service executable filename
-config.walletServiceBinaryFilename = 'turtle-service';
+config.walletServiceBinaryFilename = 'Grub-service';
 
 // version on the bundled service (turtle-service)
 config.walletServiceBinaryVersion = "v0.8.4";
@@ -23,29 +23,29 @@ config.walletServiceBinaryVersion = "v0.8.4";
 config.walletServiceRpcPort = 8070;
 
 // block explorer url, the [[TX_HASH] will be substituted w/ actual transaction hash
-config.blockExplorerUrl = 'https://turtle.land/?hash=[[TX_HASH]]#blockchain_transaction';
+config.blockExplorerUrl = 'http://grubmine.govps.com/GRUB-block-explorer/?hash=[[TX_HASH]]#blockchain_transaction';
 
 // default remote node to connect to, set this to a known reliable node for 'just works' user experience
-config.remoteNodeDefaultHost = 'nodes.hashvault.pro';
+config.remoteNodeDefaultHost = '192.99.206.62';
 
 // remote node list update url, set to null if you don't have one
-config.remoteNodeListUpdateUrl = 'https://raw.githubusercontent.com/turtlecoin/turtlecoin-nodes-json/master/turtlecoin-nodes.json';
+config.remoteNodeListUpdateUrl = 'null';
 
 // fallback remote node list, in case fetching update failed, fill this with known to works remote nodes
 config.remoteNodeListFallback = [
-    'nodes.hashvault.pro:11898',
-    'public.turtlenode.io:11898',
-    'public.turtlenode.net:11898',
+    '74.140.171.96:11898',
+    '144.217.45.40:11898',
+    
 ];
 
 // your currency name
-config.assetName = 'TurtleCoin';
+config.assetName = 'GrubMine';
 // your currency ticker
-config.assetTicker =  'TRTL';
+config.assetTicker =  'GRUB';
 // your currency address prefix, for address validation
-config.addressPrefix =  'TRTL';
+config.addressPrefix =  'GRUB';
 // standard wallet address length, for address validation
-config.addressLength = 99;
+config.addressLength = 98;
 // intergrated wallet address length, for address validation
 config.integratedAddressLength = 187;
 
