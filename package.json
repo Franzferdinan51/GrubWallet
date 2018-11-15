@@ -1,10 +1,10 @@
 {
-  "name": "walletshell",
-  "productName": "WalletShell",
+  "name": "GrubWallet",
+  "productName": "GrubWallet",
   "description": "TurtleCoin GUI Wallet",
-  "version": "v0.3.5",
-  "homepage": "https://github.com/turtlecoin/turtle-wallet-electron",
-  "repository": "https://github.com/turtlecoin/turtle-wallet-electron",
+  "version": "v0.0.1",
+  "homepage": "https://github.com/Franzferdinan51/turtle-wallet-electron/",
+  "repository": "https://github.com/Franzferdinan51/turtle-wallet-electron",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -33,7 +33,7 @@
     "request-promise-native": "^1.0.5"
   },
   "build": {
-    "appId": "lol.turtlecoin.walletshell",
+    "appId": "Grub.wallet.shell",
     "copyright": "Copyright (c) 2018 Rixombea, Macroshock, TurtleCoin Developers",
     "directories": {
       "app": ".",
