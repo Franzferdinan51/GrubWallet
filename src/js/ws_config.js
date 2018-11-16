@@ -50,7 +50,7 @@ config.addressLength = 98;
 config.integratedAddressLength = 187;
 
 // minimum fee for sending transaction
-config.minimumFee = 0.1;
+config.minimumFee = 0.2;
 // minimum amount for sending transaction
 config.mininumSend = 0.1;
 // default mixin/anonimity for transaction
@@ -67,16 +67,16 @@ config.addressBookObfuscateEntries = true;
 config.addressBookObfuscationKey = '79009fb00ca1b7130832a42de45142cf6c4b7f333fe6fba5';
 // initial/sample entries to fill new address book
 config.addressBookSampleEntries = [
-    { name: 'labaylabay',
-      address: 'TRTLv1A26ngXApin33p1JsSE9Yf6REj97Xruz15D4JtSg1wuqYTmsPj5Geu2kHtBzD8TCsfd5dbdYRsrhNXMGyvtJ61AoYqLXVS',
-      paymentId: 'DF794857BC4587ECEC911AF6A6AB02513FEA524EC5B98DA8702FAC92195A94B2', 
-    },
-    { name: 'Macroshock',
-      address: 'TRTLv3R17LWbVw8Qv4si2tieyKsytUfKQXUgsmjksgrgJsTsnhzxNAeLKPjsyDGF7HGfjqkDegu2LPaC5NeVYot1SnpfcYmjwie',
+    { name: 'FrenziedFire',
+      address: 'gRUBKxWpLy4AhpGwX26mdE6bHnUsTm98MdGz3xZFa6duZ3cvk3W5KfHQ3ugCsmkbBpX9tHGKGtN4Kj1eDATYhZue7UYS5XLmKr',
       paymentId: '', 
     },
-    { name: 'RockSteady',
-      address: 'TRTLuxEnfjdF46cBoHhyDtPN32weD9fvL43KX5cx2Ck9iSP4BLNPrJY3xtuFpXtLxiA6LDYojhF7n4SwPNyj9M64iTwJ738vnJk',
+    { name: '',
+      address: '',
+      paymentId: '', 
+    },
+    { name: '',
+      address: '',
       paymentId: '', 
     }
 ];
