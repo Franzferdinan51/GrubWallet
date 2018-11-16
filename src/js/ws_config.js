@@ -71,14 +71,7 @@ config.addressBookSampleEntries = [
       address: 'gRUBKxWpLy4AhpGwX26mdE6bHnUsTm98MdGz3xZFa6duZ3cvk3W5KfHQ3ugCsmkbBpX9tHGKGtN4Kj1eDATYhZue7UYS5XLmKr',
       paymentId: '', 
     },
-    { name: '',
-      address: '',
-      paymentId: '', 
-    },
-    { name: '',
-      address: '',
-      paymentId: '', 
-    }
+ 
 ];
 
 module.exports = config;
