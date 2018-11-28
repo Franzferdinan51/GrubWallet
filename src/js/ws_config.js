@@ -43,7 +43,7 @@ config.assetName = 'GrubMine';
 // your currency ticker
 config.assetTicker =  'Magi';
 // your currency address prefix, for address validation
-config.addressPrefix =  'gRUB';
+config.addressPrefix =  'X';
 // standard wallet address length, for address validation
 config.addressLength = 99;
 // intergrated wallet address length, for address validation
@@ -52,13 +52,13 @@ config.integratedAddressLength = 187;
 // minimum fee for sending transaction
 config.minimumFee = 0.2;
 // minimum amount for sending transaction
-config.mininumSend = 0.1;
+config.mininumSend = 1.0;
 // default mixin/anonimity for transaction
 config.defaultMixin = 3;
 // to convert from atomic unit
 config.decimalDivisor = 100;
 // to represent human readable value
-config.decimalPlaces = 2;
+config.decimalPlaces = 3;
 
 // obfuscate address book entries, set to false if you want to save it in plain json file.
 // not for security because the encryption key is attached here
