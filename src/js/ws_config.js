@@ -1,8 +1,8 @@
 var config = {};
 
 // self explanatory, your application name, descriptions, etc
-config.appName = 'GrubWallet';
-config.appDescription = 'GrubPrivate Wallet';
+config.appName = 'MagiXWallet';
+config.appDescription = 'MagiX Wallet';
 config.appSlogan = 'Slow and steady wins the race!';
 config.appId = 'Grub.wallet.shll';
 config.appGitRepo = 'https://github.com/Franzferdinan51/turtle-wallet-electron';
@@ -14,10 +14,10 @@ config.daemonDefaultRpcPort = 11898;
 config.walletFileDefaultExt = 'twl';
 
 // change this to match your wallet service executable filename
-config.walletServiceBinaryFilename = 'Grub-service';
+config.walletServiceBinaryFilename = 'Magi-service';
 
 // version on the bundled service (turtle-service)
-config.walletServiceBinaryVersion = "v0.8.4";
+config.walletServiceBinaryVersion = "v0.9.4";
 
 // default port number for your wallet service (e.g. turtle-service)
 config.walletServiceRpcPort = 8070;
@@ -26,7 +26,7 @@ config.walletServiceRpcPort = 8070;
 config.blockExplorerUrl = 'http://grubmine.govps.com/GRUB-block-explorer/?hash=[[TX_HASH]]#blockchain_transaction';
 
 // default remote node to connect to, set this to a known reliable node for 'just works' user experience
-config.remoteNodeDefaultHost = '192.99.206.62';
+config.remoteNodeDefaultHost = '209.188.25.74';
 
 // remote node list update url, set to null if you don't have one
 config.remoteNodeListUpdateUrl = 'null';
@@ -41,11 +41,11 @@ config.remoteNodeListFallback = [
 // your currency name
 config.assetName = 'GrubMine';
 // your currency ticker
-config.assetTicker =  'GRUB';
+config.assetTicker =  'Magi';
 // your currency address prefix, for address validation
 config.addressPrefix =  'gRUB';
 // standard wallet address length, for address validation
-config.addressLength = 98;
+config.addressLength = 99;
 // intergrated wallet address length, for address validation
 config.integratedAddressLength = 187;
 
