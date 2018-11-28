@@ -45,7 +45,7 @@ config.assetTicker =  'Magi';
 // your currency address prefix, for address validation
 config.addressPrefix =  'Xw';
 // standard wallet address length, for address validation
-config.addressLength = 99;
+config.addressLength = 97;
 // intergrated wallet address length, for address validation
 config.integratedAddressLength = 187;
 
