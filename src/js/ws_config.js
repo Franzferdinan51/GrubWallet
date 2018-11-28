@@ -43,7 +43,7 @@ config.assetName = 'GrubMine';
 // your currency ticker
 config.assetTicker =  'Magi';
 // your currency address prefix, for address validation
-config.addressPrefix =  'X';
+config.addressPrefix =  'Xw';
 // standard wallet address length, for address validation
 config.addressLength = 99;
 // intergrated wallet address length, for address validation
