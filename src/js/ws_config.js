@@ -1,14 +1,14 @@
 var config = {};
 
 // self explanatory, your application name, descriptions, etc
-config.appName = 'MagiXWallet';
-config.appDescription = 'MagiX Wallet';
+config.appName = 'OSLWallet';
+config.appDescription = 'OSLWallet';
 config.appSlogan = 'Slow and steady wins the race!';
 config.appId = 'Grub.wallet.shll';
-config.appGitRepo = 'https://github.com/Franzferdinan51/turtle-wallet-electron';
+config.appGitRepo = 'https://github.com/Franzferdinan51/GrubWallet';
 
 // default port number for your daemon (e.g. TurtleCoind)
-config.daemonDefaultRpcPort = 11898;
+config.daemonDefaultRpcPort = 11246;
 
 // wallet file created by this app will have this extension
 config.walletFileDefaultExt = 'twl';
@@ -26,26 +26,25 @@ config.walletServiceRpcPort = 8070;
 config.blockExplorerUrl = 'http://grubmine.govps.com/GRUB-block-explorer/?hash=[[TX_HASH]]#blockchain_transaction';
 
 // default remote node to connect to, set this to a known reliable node for 'just works' user experience
-config.remoteNodeDefaultHost = '209.188.25.74';
+config.remoteNodeDefaultHost = '74.130.176.161';
 
 // remote node list update url, set to null if you don't have one
 config.remoteNodeListUpdateUrl = 'null';
 
 // fallback remote node list, in case fetching update failed, fill this with known to works remote nodes
 config.remoteNodeListFallback = [
-    '74.140.171.96:11898',
-    '144.217.45.40:11898',
+    '74.130.176.161:11246',
     
 ];
 
 // your currency name
-config.assetName = 'GrubMine';
+config.assetName = 'Oscillate';
 // your currency ticker
-config.assetTicker =  'Magi';
+config.assetTicker =  'OSL';
 // your currency address prefix, for address validation
-config.addressPrefix =  'Xw';
+config.addressPrefix =  '0x271072';
 // standard wallet address length, for address validation
-config.addressLength = 97;
+config.addressLength = 99;
 // intergrated wallet address length, for address validation
 config.integratedAddressLength = 187;
 
@@ -68,7 +67,7 @@ config.addressBookObfuscationKey = '79009fb00ca1b7130832a42de45142cf6c4b7f333fe6
 // initial/sample entries to fill new address book
 config.addressBookSampleEntries = [
     { name: 'FrenziedFire',
-      address: 'gRUBKxWpLy4AhpGwX26mdE6bHnUsTm98MdGz3xZFa6duZ3cvk3W5KfHQ3ugCsmkbBpX9tHGKGtN4Kj1eDATYhZue7UYS5XLmKr',
+      address: 'hannwTwkdksdprzZnmJw8qes4dBbpYfx2Mvw3Qu6RJJwKeTsHJP3s2xgEK1WKDJiY5XQSwxRyGZn3Hj6HeZkek42XStBj5ZQAwu',
       paymentId: '', 
     },
  
